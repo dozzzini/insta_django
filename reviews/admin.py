@@ -3,5 +3,5 @@ from .models import Review
 
 # Register your models here.
 @admin.register(Review)
-class Review(admin.ModelAdmin):
+class ReviewAdmin(admin.ModelAdmin):
     list_display=("rcaption",)

@@ -3,5 +3,5 @@ from .models import Feed
 
 # Register your models here.
 @admin.register(Feed)
-class Feed(admin.ModelAdmin):
+class FeedAdmin(admin.ModelAdmin):
     list_display=("caption", "contentImg", "likesNum",)
